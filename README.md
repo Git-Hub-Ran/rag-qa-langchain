@@ -5,7 +5,7 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline using La
 ## Overview
 
 The system:
-1. Loads external web documents (New York Governor news + Wikipedia page).
+1. Loads external web documents (New York Governor news + a UK government press release).
 2. Splits documents into chunks.
 3. Creates embeddings using OpenAI.
 4. Stores embeddings in Chroma vector database.
